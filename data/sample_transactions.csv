@@ -1,0 +1,21 @@
+transaction_id,date,amount,merchant,category,location,card_type
+TX123456,2025-04-01,125.99,Amazon,Online Shopping,New York USA,Credit
+TX123457,2025-04-01,1500.00,PayPal Transfer,Money Transfer,Online,Debit
+TX123458,2025-04-02,75.50,Grocery Store,Food,Chicago USA,Credit
+TX123459,2025-04-02,899.99,Electronics Store,Electronics,Los Angeles USA,Credit
+TX123460,2025-04-03,25.00,Coffee Shop,Food,Seattle USA,Debit
+TX123461,2025-04-03,2500.00,International Transfer,Money Transfer,London UK,Wire
+TX123462,2025-04-04,199.99,Online Subscription,Entertainment,Online,Credit
+TX123463,2025-04-04,50.00,Gas Station,Transportation,Miami USA,Debit
+TX123464,2025-04-05,1200.00,Rent Payment,Housing,Boston USA,ACH
+TX123465,2025-04-05,89.99,Mobile Provider,Utilities,Online,Credit
+TX123466,2025-04-06,300.00,Unknown Merchant,Other,Moscow Russia,Credit
+TX123467,2025-04-06,450.00,Hotel Booking,Travel,Paris France,Credit
+TX123468,2025-04-07,75.00,Restaurant,Food,New York USA,Credit
+TX123469,2025-04-07,5000.00,Investment Platform,Investment,Online,Wire
+TX123470,2025-04-08,129.99,Clothing Store,Shopping,Miami USA,Credit
+TX123471,2025-04-08,1000.00,Cryptocurrency Exchange,Investment,Online,Debit
+TX123472,2025-04-09,45.00,Pharmacy,Health,Chicago USA,Debit
+TX123473,2025-04-09,3500.00,Foreign Exchange,Money Transfer,Tokyo Japan,Wire
+TX123474,2025-04-10,250.00,Department Store,Shopping,Los Angeles USA,Credit
+TX123475,2025-04-10,19.99,Streaming Service,Entertainment,Online,Credit

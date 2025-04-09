@@ -1,0 +1,114 @@
+{
+  "patterns": [
+    {
+      "id": "FP001",
+      "name": "Unusual Transaction Amount",
+      "description": "Transaction amount significantly deviates from the user's normal spending pattern",
+      "risk_level": "medium",
+      "indicators": [
+        "Amount is 3x higher than average transaction",
+        "Amount exceeds user-defined threshold",
+        "Sudden large transaction after period of inactivity"
+      ]
+    },
+    {
+      "id": "FP002",
+      "name": "Suspicious Location",
+      "description": "Transaction occurs in a location that is unusual for the user",
+      "risk_level": "high",
+      "indicators": [
+        "Transaction in different country than user's residence",
+        "Multiple transactions in different geographic locations within short timeframe",
+        "Transaction in high-risk jurisdiction"
+      ]
+    },
+    {
+      "id": "FP003",
+      "name": "Velocity Check Failure",
+      "description": "Multiple transactions in a short period of time",
+      "risk_level": "high",
+      "indicators": [
+        "Multiple transactions within minutes",
+        "Rapid succession of increasing transaction amounts",
+        "Multiple declined transactions followed by successful one"
+      ]
+    },
+    {
+      "id": "FP004",
+      "name": "Card Testing Pattern",
+      "description": "Small transactions followed by larger ones, typical of testing stolen cards",
+      "risk_level": "high",
+      "indicators": [
+        "Multiple small-value transactions",
+        "Transactions increasing in value over short period",
+        "Transactions with known test merchants"
+      ]
+    },
+    {
+      "id": "FP005",
+      "name": "Mismatched Billing Information",
+      "description": "Billing address doesn't match the address on file",
+      "risk_level": "medium",
+      "indicators": [
+        "Billing address different from registered address",
+        "Partial address match only",
+        "Address verification service (AVS) failure"
+      ]
+    },
+    {
+      "id": "FP006",
+      "name": "Unusual Merchant Category",
+      "description": "Transaction with merchant category not typically used by the customer",
+      "risk_level": "low",
+      "indicators": [
+        "First-time transaction in merchant category",
+        "Unusual merchant category for customer demographic",
+        "High-risk merchant category"
+      ]
+    },
+    {
+      "id": "FP007",
+      "name": "Round Amount Transaction",
+      "description": "Transactions with suspiciously round amounts",
+      "risk_level": "low",
+      "indicators": [
+        "Even amount transactions (e.g., exactly $100.00)",
+        "Multiple round-number transactions",
+        "Pattern of round number withdrawals"
+      ]
+    },
+    {
+      "id": "FP008",
+      "name": "Time of Day Anomaly",
+      "description": "Transaction occurs at unusual time for the user",
+      "risk_level": "medium",
+      "indicators": [
+        "Transaction during sleeping hours",
+        "Transaction outside normal activity hours",
+        "Sudden change in transaction timing patterns"
+      ]
+    },
+    {
+      "id": "FP009",
+      "name": "Device Anomaly",
+      "description": "Transaction from a new or suspicious device",
+      "risk_level": "high",
+      "indicators": [
+        "New device not previously associated with user",
+        "Device associated with multiple accounts",
+        "Device with suspicious characteristics (e.g., emulator)"
+      ]
+    },
+    {
+      "id": "FP010",
+      "name": "IP Address Risk",
+      "description": "Transaction from high-risk IP address",
+      "risk_level": "high",
+      "indicators": [
+        "IP address from high-risk country",
+        "IP address on known blacklist",
+        "IP address associated with proxy/VPN"
+      ]
+    }
+  ]
+}
